@@ -1,0 +1,84 @@
+# Build directories
+build/
+.vscode/
+
+# Visual Studio specific
+*.vcxproj
+*.vcxproj.filters
+*.slnx
+*.sln
+*.user
+*.suo
+*.userprefs
+
+# Compiled output
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.obj
+*.lib
+*.exp
+
+*.json
+
+# CMake generated files
+CMakeCache.txt
+cmake_install.cmake
+CMakeFiles/
+*.cmake
+!CMakeLists.txt
+cmake_install.cmake
+Makefile
+CMakeCache.txt
+*.dir/
+
+# Build artifacts and logs
+*.log
+*.tlog/
+*.recipe
+*.lastbuildstate
+*.write.1.tlog
+*.read.1.tlog
+*.command.1.tlog
+*.secondary.1.tlog
+*.items.tlog
+
+# Debug and Release folders
+Debug/
+Release/
+MinSizeRel/
+RelWithDebInfo/
+x64/
+x86/
+Win32/
+
+# Compiler generated
+*.pdb
+*.idb
+*.ilk
+*.exp
+*.lib
+*.obj
+
+# Dependency manager
+vcpkg.applocal.log
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# CMake API
+.cmake/api/
+
+# Windows specific
+Thumbs.db
+Desktop.ini
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
