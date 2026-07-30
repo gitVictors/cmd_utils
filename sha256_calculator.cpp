@@ -86,7 +86,9 @@ std::string doubleSha256(const unsigned char* data, size_t len) {
     return sha256(firstHashBytes.data(), firstHashBytes.size());
 }
 
+
 int main(int argc, char* argv[]) {
+    
     std::cout << "SHA-256 Hash Calculator for 80-byte number" << std::endl;
     std::cout << "============================================" << std::endl;
     
