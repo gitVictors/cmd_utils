@@ -2,6 +2,8 @@
 build/
 .vscode/
 
+CMakeLists.txt
+
 # Visual Studio specific
 *.vcxproj
 *.vcxproj.filters
